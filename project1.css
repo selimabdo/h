@@ -1,0 +1,8 @@
+.Contact{display: grid;grid-template-columns: repeat(4 ,auto);
+grid-template-rows: repeat(2 ,auto);grid-template-areas:"favicon FAQs Policy Guide" "favicon Contact-Us Press Press";}
+
+.favicon{grid-area: favicon; margin-top: 20px ; width: 50px;margin-left: 50px;}
+.FAQs{grid-area: FAQs;}
+
+.Policy{grid-area: Policy;}
+.Guide{grid-area: Guide;}
